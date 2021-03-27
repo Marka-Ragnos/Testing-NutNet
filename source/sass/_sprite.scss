@@ -1,0 +1,244 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$dribbble-name: 'dribbble';
+$dribbble-x: 55px;
+$dribbble-y: 85px;
+$dribbble-offset-x: -55px;
+$dribbble-offset-y: -85px;
+$dribbble-width: 16px;
+$dribbble-height: 16px;
+$dribbble-total-width: 159px;
+$dribbble-total-height: 156px;
+$dribbble-image: '../img/sprite.png';
+$dribbble: (55px, 85px, -55px, -85px, 16px, 16px, 159px, 156px, '../img/sprite.png', 'dribbble', );
+$expertise-1-name: 'expertise-1';
+$expertise-1-x: 55px;
+$expertise-1-y: 0px;
+$expertise-1-offset-x: -55px;
+$expertise-1-offset-y: 0px;
+$expertise-1-width: 49px;
+$expertise-1-height: 50px;
+$expertise-1-total-width: 159px;
+$expertise-1-total-height: 156px;
+$expertise-1-image: '../img/sprite.png';
+$expertise-1: (55px, 0px, -55px, 0px, 49px, 50px, 159px, 156px, '../img/sprite.png', 'expertise-1', );
+$expertise-2-name: 'expertise-2';
+$expertise-2-x: 109px;
+$expertise-2-y: 0px;
+$expertise-2-offset-x: -109px;
+$expertise-2-offset-y: 0px;
+$expertise-2-width: 50px;
+$expertise-2-height: 42px;
+$expertise-2-total-width: 159px;
+$expertise-2-total-height: 156px;
+$expertise-2-image: '../img/sprite.png';
+$expertise-2: (109px, 0px, -109px, 0px, 50px, 42px, 159px, 156px, '../img/sprite.png', 'expertise-2', );
+$expertise-3-name: 'expertise-3';
+$expertise-3-x: 0px;
+$expertise-3-y: 106px;
+$expertise-3-offset-x: 0px;
+$expertise-3-offset-y: -106px;
+$expertise-3-width: 28px;
+$expertise-3-height: 50px;
+$expertise-3-total-width: 159px;
+$expertise-3-total-height: 156px;
+$expertise-3-image: '../img/sprite.png';
+$expertise-3: (0px, 106px, 0px, -106px, 28px, 50px, 159px, 156px, '../img/sprite.png', 'expertise-3', );
+$expertise-4-name: 'expertise-4';
+$expertise-4-x: 0px;
+$expertise-4-y: 0px;
+$expertise-4-offset-x: 0px;
+$expertise-4-offset-y: 0px;
+$expertise-4-width: 50px;
+$expertise-4-height: 50px;
+$expertise-4-total-width: 159px;
+$expertise-4-total-height: 156px;
+$expertise-4-image: '../img/sprite.png';
+$expertise-4: (0px, 0px, 0px, 0px, 50px, 50px, 159px, 156px, '../img/sprite.png', 'expertise-4', );
+$expertise-5-name: 'expertise-5';
+$expertise-5-x: 109px;
+$expertise-5-y: 47px;
+$expertise-5-offset-x: -109px;
+$expertise-5-offset-y: -47px;
+$expertise-5-width: 41px;
+$expertise-5-height: 50px;
+$expertise-5-total-width: 159px;
+$expertise-5-total-height: 156px;
+$expertise-5-image: '../img/sprite.png';
+$expertise-5: (109px, 47px, -109px, -47px, 41px, 50px, 159px, 156px, '../img/sprite.png', 'expertise-5', );
+$expertise-6-name: 'expertise-6';
+$expertise-6-x: 0px;
+$expertise-6-y: 55px;
+$expertise-6-offset-x: 0px;
+$expertise-6-offset-y: -55px;
+$expertise-6-width: 50px;
+$expertise-6-height: 46px;
+$expertise-6-total-width: 159px;
+$expertise-6-total-height: 156px;
+$expertise-6-image: '../img/sprite.png';
+$expertise-6: (0px, 55px, 0px, -55px, 50px, 46px, 159px, 156px, '../img/sprite.png', 'expertise-6', );
+$facebook-name: 'facebook';
+$facebook-x: 96px;
+$facebook-y: 85px;
+$facebook-offset-x: -96px;
+$facebook-offset-y: -85px;
+$facebook-width: 7px;
+$facebook-height: 15px;
+$facebook-total-width: 159px;
+$facebook-total-height: 156px;
+$facebook-image: '../img/sprite.png';
+$facebook: (96px, 85px, -96px, -85px, 7px, 15px, 159px, 156px, '../img/sprite.png', 'facebook', );
+$google-name: 'google';
+$google-x: 52px;
+$google-y: 106px;
+$google-offset-x: -52px;
+$google-offset-y: -106px;
+$google-width: 15px;
+$google-height: 14px;
+$google-total-width: 159px;
+$google-total-height: 156px;
+$google-image: '../img/sprite.png';
+$google: (52px, 106px, -52px, -106px, 15px, 14px, 159px, 156px, '../img/sprite.png', 'google', );
+$instagram-name: 'instagram';
+$instagram-x: 76px;
+$instagram-y: 85px;
+$instagram-offset-x: -76px;
+$instagram-offset-y: -85px;
+$instagram-width: 15px;
+$instagram-height: 15px;
+$instagram-total-width: 159px;
+$instagram-total-height: 156px;
+$instagram-image: '../img/sprite.png';
+$instagram: (76px, 85px, -76px, -85px, 15px, 15px, 159px, 156px, '../img/sprite.png', 'instagram', );
+$marker-name: 'marker';
+$marker-x: 33px;
+$marker-y: 106px;
+$marker-offset-x: -33px;
+$marker-offset-y: -106px;
+$marker-width: 14px;
+$marker-height: 19px;
+$marker-total-width: 159px;
+$marker-total-height: 156px;
+$marker-image: '../img/sprite.png';
+$marker: (33px, 106px, -33px, -106px, 14px, 19px, 159px, 156px, '../img/sprite.png', 'marker', );
+$paper-name: 'paper';
+$paper-x: 55px;
+$paper-y: 55px;
+$paper-offset-x: -55px;
+$paper-offset-y: -55px;
+$paper-width: 25px;
+$paper-height: 25px;
+$paper-total-width: 159px;
+$paper-total-height: 156px;
+$paper-image: '../img/sprite.png';
+$paper: (55px, 55px, -55px, -55px, 25px, 25px, 159px, 156px, '../img/sprite.png', 'paper', );
+$phone-name: 'phone';
+$phone-x: 85px;
+$phone-y: 55px;
+$phone-offset-x: -85px;
+$phone-offset-y: -55px;
+$phone-width: 17px;
+$phone-height: 17px;
+$phone-total-width: 159px;
+$phone-total-height: 156px;
+$phone-image: '../img/sprite.png';
+$phone: (85px, 55px, -85px, -55px, 17px, 17px, 159px, 156px, '../img/sprite.png', 'phone', );
+$twitter-name: 'twitter';
+$twitter-x: 94px;
+$twitter-y: 106px;
+$twitter-offset-x: -94px;
+$twitter-offset-y: -106px;
+$twitter-width: 14px;
+$twitter-height: 11px;
+$twitter-total-width: 159px;
+$twitter-total-height: 156px;
+$twitter-image: '../img/sprite.png';
+$twitter: (94px, 106px, -94px, -106px, 14px, 11px, 159px, 156px, '../img/sprite.png', 'twitter', );
+$youtube-name: 'youtube';
+$youtube-x: 72px;
+$youtube-y: 106px;
+$youtube-offset-x: -72px;
+$youtube-offset-y: -106px;
+$youtube-width: 17px;
+$youtube-height: 11px;
+$youtube-total-width: 159px;
+$youtube-total-height: 156px;
+$youtube-image: '../img/sprite.png';
+$youtube: (72px, 106px, -72px, -106px, 17px, 11px, 159px, 156px, '../img/sprite.png', 'youtube', );
+$spritesheet-width: 159px;
+$spritesheet-height: 156px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($dribbble, $expertise-1, $expertise-2, $expertise-3, $expertise-4, $expertise-5, $expertise-6, $facebook, $google, $instagram, $marker, $paper, $phone, $twitter, $youtube, );
+$spritesheet: (159px, 156px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

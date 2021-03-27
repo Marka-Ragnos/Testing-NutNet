@@ -1,0 +1,28 @@
+.home {
+  text-align: center;
+  color: $text-light;
+  padding: 222px 0 207px 0;
+
+  &:before {
+    background-image: url("/img/header-bg.png");
+  }
+}
+
+.home__title {
+  font-size: 32px;
+  @include playfair-black;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+.home__text {
+  font-size: 14px;
+  @include roboto-light;
+  margin-top: 0;
+  line-height: 1.714;
+}
+
+.home__btn {
+  margin-top: 34px;
+}

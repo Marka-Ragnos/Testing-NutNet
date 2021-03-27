@@ -1,0 +1,93 @@
+@mixin hammersmith {
+  font-family: "Hammersmith One", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin playfair-regular {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin playfair-bold {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin playfair-black {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@mixin roboto-thin {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+@mixin roboto-light {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin roboto-regular {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin roboto-black {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@mixin list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin buttton-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+@mixin pseudo {
+  position: absolute;
+  content: "";
+}
+
+// @mixin retina {
+//   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+//     @content;
+//   }
+// }
+
+// @mixin media-tablet {
+//   @media (max-width: $tablet-width) {
+//     @content;
+//   }
+// }
+
+// @mixin media-mobile {
+//   @media (max-width: $mobile-width) {
+//     @content;
+//   }
+// }
+
+// @mixin media-transitional {
+//   @media (min-width: 1024px) and (max-width: 1700px) {
+//     @content;
+//   }
+// }

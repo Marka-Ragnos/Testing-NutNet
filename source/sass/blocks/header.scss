@@ -1,0 +1,25 @@
+.header {
+  background: rgba(49, 29, 94, 0.85);
+
+  .navbar-nav {
+    .nav-item {
+      margin-left: 12px;
+      @include roboto-black;
+      font-size: 13px;
+    }
+
+    .nav-link {
+      color: $white-color;
+      text-transform: uppercase;
+      letter-spacing: 0.25px;
+
+      &:hover {
+        color: $basic-color-2;
+      }
+
+      &.active {
+        color: $basic-color-1;
+      }
+    }
+  }
+}
