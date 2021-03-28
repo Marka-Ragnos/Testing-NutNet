@@ -1,0 +1,85 @@
+@include sprites($spritesheet-sprites);
+
+.expertise {
+  text-align: center;
+}
+
+.expertise {
+  @include media-breakpoint-up(sm) {
+    padding-top: 66px;
+    padding-bottom: 75px;
+  }
+}
+
+.expertise__header {
+  @include roboto-light;
+}
+
+.expertise__title {
+  @include playfair-bold;
+  font-size: 22px;
+  color: $text-dark;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+.expertise__text {
+  @include playfair-regular;
+  font-size: 14px;
+  color: $basic-color-4;
+  margin-top: 10px;
+  letter-spacing: 0.75px;
+}
+
+.expertise__list-wp {
+  overflow: hidden;
+  margin-top: 35px;
+}
+
+.expertise__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 -12px -12px 0;
+}
+
+.expertise__item {
+  border-bottom: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+
+  padding-left: 0;
+}
+
+.service {
+  padding: 38px 15px 20px 15px;
+  min-height: 255px;
+}
+
+.service__title {
+  @include roboto-black;
+  font-size: 14px;
+  color: $text-dark;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+  margin-top: 23px;
+  letter-spacing: 0.5px;
+}
+
+.service__text {
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  color: $basic-color-5;
+  line-height: 1.571;
+  font-weight: 300;
+}
+
+// .service__decor-img {
+//   margin: 0 auto;
+//   height: 60px;
+
+//   & > i {
+//     margin: 0 auto;
+//   }
+// }

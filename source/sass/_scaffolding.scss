@@ -59,13 +59,6 @@ a {
   }
 }
 
-.expertise {
-  @include media-breakpoint-up(sm) {
-    padding-top: 66px;
-    padding-bottom: 75px;
-  }
-}
-
 .footer {
   @include media-breakpoint-up(sm) {
     padding-top: 70px;
@@ -77,20 +70,6 @@ a {
   @include media-breakpoint-up(sm) {
     padding-top: 70px;
     padding-bottom: 76px;
-  }
-}
-
-.team {
-  @include media-breakpoint-up(sm) {
-    padding-top: 67px;
-    padding-bottom: 70px;
-  }
-}
-
-.works {
-  @include media-breakpoint-up(sm) {
-    padding-top: 65px;
-    padding-bottom: 70px;
   }
 }
 
@@ -155,7 +134,7 @@ a {
     @extend .default--line-bottom;
     content: "";
     height: 2px;
-    background: $basic-color-4;
+    background: #c6c4c9;
   }
 }
 
@@ -165,4 +144,8 @@ a {
     background: $basic-color-1;
     height: 1px;
   }
+}
+
+.icon {
+  display: inline-block;
 }

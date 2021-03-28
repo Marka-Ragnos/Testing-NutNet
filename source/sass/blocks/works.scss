@@ -1,0 +1,141 @@
+.works {
+  @include media-breakpoint-up(sm) {
+    padding-top: 65px;
+    padding-bottom: 70px;
+  }
+}
+
+.works__header {
+  color: $basic-color-3;
+  margin-bottom: 65px;
+  letter-spacing: 0.5px;
+
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.works__portfolio {
+  list-style: none;
+  padding-left: 0;
+}
+
+.works__title {
+  @include playfair-bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 0;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 0;
+  }
+}
+
+.works__link {
+  @include roboto-light;
+  font-size: 14px;
+  text-align: right;
+  color: inherit;
+
+  &:after {
+    content: "";
+    border: 1px solid #acacac;
+    height: 0.7em;
+    width: 0.7em;
+    margin-left: 10px;
+    display: inline-block;
+    border-left: none;
+    border-top: none;
+    transform: rotate(-45deg);
+  }
+}
+
+.portfolio__item {
+  padding: 0;
+
+  &:nth-of-type(12n + 1),
+  &:nth-of-type(12n + 5),
+  &:nth-of-type(12n + 12),
+  &:nth-of-type(12n + 8) {
+    .portfolio__content {
+      background: #b6b6b6;
+    }
+  }
+
+  &:nth-of-type(12n + 2),
+  &:nth-of-type(12n + 11) {
+    .portfolio__content {
+      background: #acacac;
+    }
+  }
+
+  &:nth-of-type(12n + 3),
+  &:nth-of-type(12n + 10) {
+    .portfolio__content {
+      background: #a1a1a1;
+    }
+  }
+
+  &:nth-of-type(12n + 4),
+  &:nth-of-type(12n + 9) {
+    .portfolio__content {
+      background: #8a8a8a;
+    }
+  }
+
+  &:nth-of-type(12n + 6),
+  &:nth-of-type(12n + 7) {
+    .portfolio__content {
+      background: #a4a4a4;
+    }
+  }
+}
+
+.portfolio__link {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  padding-bottom: 89%;
+
+  &:hover,
+  &:focus {
+    .portfolio__content {
+      opacity: 0.9;
+    }
+  }
+}
+
+.portfolio__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.works__btn-wp {
+  text-align: center;
+  margin-top: 30px;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 55px;
+  }
+}
+
+.works__btn {
+  min-width: 140px;
+}

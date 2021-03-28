@@ -1,0 +1,103 @@
+.team {
+  text-align: center;
+
+  &:before {
+    background-image: url("/img/team-bg.png");
+  }
+}
+
+.team {
+  @include media-breakpoint-up(sm) {
+    padding-top: 67px;
+    padding-bottom: 70px;
+  }
+}
+
+.team__title {
+  @include playfair-bold;
+  font-size: 22px;
+  color: $text-light;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+}
+
+.team__subtitle {
+  @include playfair-regular;
+  font-size: 14px;
+  color: #f9f9f9;
+  margin-top: 12px;
+  letter-spacing: 0.75px;
+}
+
+.team__list {
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.team-member {
+  transition: 0.3s ease-in-out;
+  max-width: 265px;
+  margin: 0 auto 70px auto;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.team-member__foto-wp {
+  // height: 228px;
+  max-height: 228px;
+  max-width: 100%;
+  // width: 100%;
+  background: $white-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member__foto {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.team-member__text-wp {
+  border: 1px solid #e1e1e180;
+  border-top-color: #e6e6e8;
+  text-transform: uppercase;
+  padding: 17px 20px 24px 20px;
+}
+
+.team-member__name {
+  @include roboto-black;
+  font-size: 14px;
+  color: $text-light;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.team-member__profession {
+  @include roboto-light;
+  color: #fafafa;
+  font-size: 13px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.team__text {
+  @include roboto-light;
+  margin-top: 0;
+  margin-bottom: 29px;
+  color: #f3f3f3;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+
+.team__btn {
+  min-width: 140px;
+}
