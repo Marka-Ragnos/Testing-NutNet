@@ -151,7 +151,7 @@ const copy = () => {
     .src(
       [
         "source/fonts/**/*.{woff,woff2}",
-        "source/css/bootstrap.min.css",
+        "source/css/*.*",
         "source/img/*.*",
         // "source/js/*.js",
         "source/libs/**/*.*",

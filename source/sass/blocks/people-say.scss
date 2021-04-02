@@ -1,0 +1,169 @@
+.people-say {
+  text-align: center;
+
+  &:before {
+    background-image: url("/img/team-bg.png");
+  }
+}
+
+.people-say {
+  @include media-breakpoint-up(sm) {
+    padding-top: 60px;
+    padding-bottom: 200px;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-top: 60px;
+    padding-bottom: 200px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 60px;
+    padding-bottom: 180px;
+  }
+}
+
+.people-say__list-wp {
+  position: relative;
+  padding-top: 46px;
+
+  &:before {
+    content: "\201c";
+    @include playfair-regular;
+    font-size: 100px;
+    color: #ffffffe6;
+    display: block;
+    position: absolute;
+    top: -44px;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.people-say__list {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.comment {
+  color: $text-light;
+}
+
+.comment__text {
+  @include playfair-regular;
+  font-size: 16px;
+  opacity: 0.85;
+  line-height: 1.625;
+  margin: 0;
+  letter-spacing: 0.25px;
+}
+
+.comment__name {
+  @include roboto-black;
+  font-size: 14px;
+  line-height: 1.571;
+  text-transform: uppercase;
+  margin-top: 44px;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+}
+
+.comment__profession {
+  @include roboto-light;
+  font-size: 13px;
+  opacity: 0.7;
+  line-height: 1.692;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+//
+.people-say__nav-slider-wp {
+  height: 54px;
+
+  @include media-breakpoint-up(sm) {
+    height: 74px;
+  }
+}
+
+.people-say__nav-slider {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 10px;
+  }
+
+  margin-bottom: 0;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.userpic-dot__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0;
+  outline: none;
+  background: none;
+  border: none;
+  border-radius: 50%;
+
+  &:focus {
+    outline: none;
+  }
+
+  @include media-breakpoint-up(sm) {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.userpic-dot__img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
+
+  @include media-breakpoint-up(sm) {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.swiper-pagination-bullet-active .userpic-dot__img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination {
+  top: 140px;
+
+  @include media-breakpoint-up(md) {
+    top: 240px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    top: 270px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    top: 240px;
+  }
+}

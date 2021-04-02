@@ -41,6 +41,15 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding-inline-start: 0px !important;
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
 .about,
 .expertise,
 .team,
@@ -63,13 +72,6 @@ a {
   @include media-breakpoint-up(sm) {
     padding-top: 70px;
     padding-bottom: 65px;
-  }
-}
-
-.people-say {
-  @include media-breakpoint-up(sm) {
-    padding-top: 70px;
-    padding-bottom: 76px;
   }
 }
 

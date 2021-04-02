@@ -1,0 +1,34 @@
+.contact {
+  text-align: center;
+}
+
+.contact__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  @include playfair-bold;
+  font-size: 22px;
+  color: $text-dark;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.feedback__input,
+.feedback__massage {
+  width: 100%;
+  margin-bottom: 21px;
+  padding: 15px 20px 13px 20px;
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+  color: #413d4b80;
+
+  &::placeholder {
+    color: #413d4b80;
+  }
+}
+
+.feedback__massage {
+  height: 200px;
+  resize: none;
+  padding-top: 18px;
+  margin-bottom: 17px;
+}

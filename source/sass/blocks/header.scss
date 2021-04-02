@@ -1,5 +1,8 @@
 .header {
-  background: rgba(49, 29, 94, 0.85);
+
+  &.scroll {
+    background: rgba(49, 29, 94, 0.85);
+  }
 
   .navbar-nav {
     .nav-item {
