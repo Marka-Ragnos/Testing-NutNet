@@ -26,9 +26,17 @@
     },
   });
 
-  // Background шапки при прокрутке страницы
+  // Background шапки при прокрутке страницы и клике на бургер
 
   const header = document.querySelector(".header"); // Шапка сайта
+  const navbarToggler = document.querySelector(".navbar-toggler");
+
+  navbarToggler.addEventListener("click", () => {
+    if (!header.classList.contains("scroll")) {
+      header.classList.toggle("scroll");
+    }
+    return;
+  });
 
   window.onscroll = () => {
     const top = document.documentElement.scrollTop || document.body.scrollTop;
@@ -43,10 +51,7 @@
 
   // Переключение активного пункта меню в шапке + Плавная прокрутка до якорей
 
-  let positions = [];
-  const currentActive = null;
   const links = document.querySelectorAll(".nav-link");
-  const anchors = document.querySelectorAll(".anchor");
 
   links.forEach((element) => {
     element.addEventListener("click", (evt) => {

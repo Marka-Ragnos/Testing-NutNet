@@ -1,7 +1,7 @@
 .header {
-
   &.scroll {
     background: rgba(49, 29, 94, 0.85);
+    // background: rgba(38, 15, 92, 0.85);
   }
 
   .navbar-nav {
@@ -26,3 +26,7 @@
     }
   }
 }
+
+// .navbar-collapse .collapse .show + .navbar {
+//   background: rgba(63, 52, 98, 0.95);
+// }
